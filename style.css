@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'inter', sans-serif;
+}
+
+body{
+    background-color: #F8FAFC;
+}
+
+.top-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.top-head h1{
+    font-size: 2.25rem;
+    font-weight: 700;   
+}
+
+.top-head p{
+    font-size: 1rem;
+}
+
+.container{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 1.8rem;
+     padding: 2.5rem;
+
+}
+
+.first-sec{
+    margin-right: 11.5rem;
+}
+.first-sec h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.first-sec p{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.first-sec ol{
+    line-height: 2.2rem;
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+
+.second-sec h2{
+    border-top: 1px solid rgba(0, 0, 0, 0.501);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.857rem;
+    margin-bottom: 1rem;
+}
+
+.second-sec p{
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding-left: 0.857rem;
+}
+
+.second-sec ul{
+    line-height: 2.2rem;
+    margin-top: 1rem;
+    padding:1.5rem;
+}
+
+span{
+    color: #4E80EE;
+    font-weight: 400;
+}
